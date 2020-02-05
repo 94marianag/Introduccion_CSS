@@ -1,0 +1,48 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.col1{
+    background-color: black;
+    width: 20%;
+    height: 100vh;    
+    color: ivory;
+    text-align: center;
+}
+
+img{
+    padding: 1em;
+    width: 80%;
+    height: 25%;
+}
+
+.col2{
+    flex-direction: rows;
+    width: 80%;
+    padding: .5em;
+}
+
+#row{    
+    height: 32%;
+    width: 100%;
+    box-shadow: 5px 5px 5px 0px rgba(46, 74, 117, 0.5);
+}
+
+#row2{
+    display: flex;
+    flex-wrap: wrap;   
+    width: 25%;
+    height: 100%;
+    box-shadow: 5px 5px 5px 0px rgba(46, 74, 117, 0.5);
+    margin:0;
+}
+
+.horizontales{
+    display: flex;
+    flex-direction: row;
+    height: 35%;
+    width: 100%;
+}
